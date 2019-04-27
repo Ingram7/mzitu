@@ -41,11 +41,13 @@ LOG_LEVEL = 'WARNING'
 
 # Override the default request headers:
 
+# 这里不添加Referer会报错
 DEFAULT_REQUEST_HEADERS = {
     'Accept-Encoding':'gzip, deflate, sdch, br',
     'Accept-Language':'zh-CN,zh;q=0.8',
     'Connection':'keep-alive',
     'Referer':'http://www.mzitu.com/all/',
+
 }
 
 # Enable or disable spider middlewares
